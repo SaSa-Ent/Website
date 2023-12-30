@@ -1086,48 +1086,54 @@
                   class="contact-form"
                   id="myForm"
               >
+                  
                   <div class="input-wrapper">
+                    
                       <input
                           type="text"
                           name="name"
                           aria-label="name"
-                          placeholder="Your name*"
+                          placeholder="Your name..."
                           required
                           class="input-field"
                       >
+                      
                       <input
                           type="email"
                           name="email_address"
                           aria-label="email"
-                          placeholder="Email address*"
+                          placeholder="Your email address..."
                           required
                           class="input-field"
                       >
                   </div>
+                  
                   <div class="input-wrapper">
-                      <input
+                      <!-- <input
                           type="text"
                           name="subject"
                           aria-label="subject"
                           placeholder="Subject"
-                          class="input-field"
-                      >
+                          class="input-field" 
+                        > -->
+                      
                       <input
                           type="number"
                           name="phone"
                           aria-label="phone"
-                          placeholder="Phone number"
+                          placeholder="Enter your phone if you'd prefer a call... "
                           class="input-field"
                       >
                   </div>
+                  Comment
                   <textarea
                       name="message"
                       aria-label="message"
-                      placeholder="Your message...*"
+                      placeholder="What do you want to talk about? A new app? A site rebuild?*"
                       required
                       class="input-field"
                   ></textarea>
-                  <div class="checkbox-wrapper">
+                  <!-- <div class="checkbox-wrapper">
                       <input
                           type="checkbox"
                           name="terms_and_policy"
@@ -1141,7 +1147,7 @@
                           and
                           <a href="#" class="label-link">Privacy Policy</a>
                       </label>
-                  </div>
+                  </div> -->
                   <div id="responseMessage" style="margin-bottom:5px;color:hsl(341, 100%, 49%);font-size: 20px;"></div>
                   <button type="button" onclick="submitForm()" class="btn btn-secondary-2">
                       Send Message
