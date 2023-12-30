@@ -929,7 +929,7 @@ ul {
 .footer-col-contact h4 {
   font-size: 18px;
   color: #ffffff;
-  text-transform: capitalize;
+  text-transform:initial;
   margin-bottom: 35px;
   font-weight: 500;
   position: relative;
