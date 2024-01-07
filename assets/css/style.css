@@ -618,7 +618,7 @@ body {
     90deg,
     rgba(2, 0, 36, 1) 0%,
     rgba(255, 173, 0, 1) 0%,
-    rgba(219, 33, 179, 1) 100%
+    rgb(216, 109, 27) 100%
   );
   /* border-image: ; */
   border-image-slice: 5; /* Ensure the entire border is covered by the gradient */
@@ -634,7 +634,7 @@ body {
     90deg,
     rgba(2, 0, 36, 1) 0%,
     rgba(255, 173, 0, 1) 0%,
-    rgba(219, 33, 179, 1) 100%
+    rgb(216, 109, 27) 100%
   );
   color: rebeccapurple;
   padding: 10px;
